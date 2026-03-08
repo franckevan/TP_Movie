@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+"moduleResolution": "Node",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@movie/*": ["../Movie/*"]
+    },
+    "rootDir": "..",
+    "outDir": "dist",
+
+    "strict": true,
+    "types": ["node"],
+    "lib": ["ES2022"],
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true
+  },
+"include": ["src", "../Movie"]
+}
